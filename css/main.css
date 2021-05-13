@@ -1,0 +1,259 @@
+@media only screen and (min-width: 375px) {
+
+    header,
+    .container {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .container,
+    .why-us,
+    .articles-container {
+        padding-top: 4rem;
+    }
+
+    .nav-content {
+        width: calc(100% - 3rem);
+    }
+
+}
+
+@media only screen and (min-width: 400px) {
+
+    header,
+    .container {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .nav-content {
+        width: calc(100% - 4rem);
+    }
+
+}
+
+@media only screen and (min-width: 500px) {
+
+    header,
+    .container {
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+    }
+
+    .nav-content {
+        width: calc(100% - 5rem);
+    }
+
+}
+
+@media only screen and (min-width: 550px) {
+    
+    .why-choose-us,
+    .articles {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .why-us,
+    .articles-container {
+        padding-top: 3rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    header {
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
+    }
+
+    .container {
+        padding-top: 5rem;
+    }
+
+    .nav-content {
+        width: calc(100% - 7rem);
+    }
+
+}
+
+@media only screen and (min-width: 700px) {
+
+    header {
+        padding-right: 4.5rem;
+        padding-left: 4.5rem;
+    }
+    
+    .container {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .nav-content {
+        width: calc(100% - 9rem);
+    }
+
+    .intro {
+        flex-direction: row-reverse;
+        gap: 10%;
+        padding-left: 4rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    
+
+    .intro .container {
+        padding: 0;
+    }
+
+    .intro-first {
+        background: url(../images/bg-intro-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    .intro-first.container,
+    .intro-second-content,
+    .intro-second-content h1 {
+        text-align: start;
+    }
+
+    .why-us-header-container {
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+
+    header {
+        padding: 0 1rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header.flex-column,
+    .nav-contents {
+        flex-direction: row;
+    }
+
+    .nav-toggle-btn {
+        display: none;
+    }
+
+    .nav-content {
+        position: static;
+        transform: rotateX(0) translateX(0);
+        width: auto;
+        
+    }
+
+    .nav-item:not(:last-child) {
+        margin-bottom: 0;
+    }
+    
+    .nav-item:not(:last-child) {
+        margin-right: 1.5rem;
+    }
+
+    .nav-contents {
+        background-color: transparent;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .nav-item {
+        display: block;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .nav-link {
+        color: var(--gray-blue);
+        font-size: 1.1rem;
+    }
+    
+    .nav-item:hover {
+        background: linear-gradient(
+            to left, 
+            var(--bright-cyan) 0%,
+            var(--lime-green) 100%
+        );
+        background-position: bottom;    
+        background-repeat: no-repeat;
+        background-size: 100% 4px;
+    }
+
+    .nav-item:hover .nav-link {
+        color: var(--dark-blue);
+    }
+
+    .invite-container {
+        display: block;
+    }
+
+    .request-invite {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .intro {
+        padding-left: 2rem;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    header,
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .intro {
+        padding-left: 10%;
+    }
+
+    .intro-first {
+        width: 80%;
+    }
+
+    .intro-second {
+        width: 70%;
+    }
+
+    .why-us,
+    .articles-container {
+        gap: 5rem;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .intro-first {
+        width: 60%;
+    }
+
+    .intro-second {
+        width: 40%;
+    }
+
+    .why-us,
+    .articles-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+
+    .why-us > div,
+    .articles-container > div {
+        text-align: start;
+    }
+
+}
