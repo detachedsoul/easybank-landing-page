@@ -57,4 +57,4 @@ Background image alignments
 ## Author
 
 - Facebook - [Wisdom Ojimah](https://web.facebook.com/IamWisdomOjimah)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/detachedsoul)
+- Frontend Mentor - [detachedsoul](https://www.frontendmentor.io/profile/detachedsoul)
